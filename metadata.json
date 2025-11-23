@@ -1,0 +1,5 @@
+{
+  "name": "AI 智能批改助手",
+  "description": "一个基于 Google Gemini 的智能侧边栏应用，用于辅助批改、批量处理和教育数据分析。",
+  "requestFramePermissions": []
+}

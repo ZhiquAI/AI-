@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "AI 智能阅卷助手",
+  "version": "1.0",
+  "description": "智学网/好分数 AI 辅助批改侧边栏",
+  "permissions": [
+    "sidePanel",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.zhixue.com/*",
+    "*://*.haofenshu.com/*",
+    "*://*.7net.cc/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "action": {
+    "default_title": "打开阅卷助手"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
